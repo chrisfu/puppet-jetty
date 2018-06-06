@@ -43,7 +43,7 @@ class jetty(
   Stdlib::Absolutepath      $base,
   String                    $version,
   Optional[String]          $service_name,
-  Enum['running', 'stoped'] $service_ensure,
+  Enum['running', 'stopped'] $service_ensure,
   Boolean                   $manage_user,
   String                    $user,
   String                    $group,
